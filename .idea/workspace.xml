@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34126ef0-312c-4d6d-8d2b-1fc952602d3d" name="Changes" comment="libraries" />
+    <list default="true" id="730e94dd-12e4-43c9-a1c5-562ea1b7642f" name="Changes" comment="libraries">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-rental-final-project-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-rental-final-project-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-rental-final-project-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-rental-final-project-backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +28,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -54,11 +65,17 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/SE/SWE-final-Project-Oct-2022",
     "spring.configuration.checksum": "995dcabdaca1ba764b026f149d8dd525"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="carrentalfinalprojectbackend" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CarRentalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="car-rental-final-project-backend" />
