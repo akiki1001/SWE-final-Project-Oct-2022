@@ -26,4 +26,4 @@ Each rental car has a pickup date and return date.Customer can rent only one car
 
 Customers should put a review of the service and experiences they had with our car rental so that we can analyze our services for improvement. 
 
-It is possible to extend the return date of the rented car for additional fee. 
+It is possible to extend the return date of the rented car for additional fee.22 
