@@ -1,0 +1,56 @@
+
+	As a customer I want to make reservation so that I have a car available for specific amount of time.
+	As a customer I want register to the system so that I can have an account.
+	As a customer I want to search cars so that I can see my options and see what’s available.
+	As an Employee I want to have access to customer info and status so that I can check or update information.
+	As an Employee I want to add new cars to the system so that the new car can be added to the database.
+	As an Employee I want to update cars in the system so that the cars info can be updated to the database.
+	As an employee I want to search cars so that I can see car availability.
+	 have access to the fleet info so that I know the car status.
+	As an Employee I want to view rental report so that I can manage the fleet status. 
+
+
+Acceptance Criteria 
+
+	Is the customer registered.
+	Does the customer have valid license number.
+	Is the selected car reserved or not. 
+	Is the car available or not. 
+
+
+
+	Is the car not reserved.
+	Is the car not in repairing status.
+
+
+	Does the customer have a valid license. 
+	Does the customer have a valid email.
+	Does the customer have a valid phone number .
+
+
+
+Registration 
+
+1.	The Customer selects the car of their choice.
+2.	The System askes the customer to enter his details.
+3.	The customer fills the details and press submit button.
+4.	The system sends email confirming his successful reservation.
+
+
+
+
+Reservation 
+
+1.	The customer selects the car ,date and time.
+2.	The system checks the car's availability.
+3.	The system displays the full details with reservation ID No. 
+
+
+
+
+Manage Rental Status 
+
+1.	The employee selects rented cars.
+2.	The system displays rented cars.
+3.	The employee updates rented car status.
+
