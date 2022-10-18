@@ -1,11 +1,11 @@
 package carrentalfinalprojectbackend.service;
 
-import carrentalfinalprojectbackend.model.Car;
+import carrentalfinalprojectbackend.dto.CarDto;
 
-import java.util.List;
+import java.util.Set;
 
 public interface CarService {
-    public void createCar(Car car);
+    public void createCar(CarDto car);
 
-    public List<Car> getAllCars();
+    public Set<CarDto> getAllCars();
 }

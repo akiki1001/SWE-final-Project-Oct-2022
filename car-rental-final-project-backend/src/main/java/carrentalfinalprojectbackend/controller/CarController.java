@@ -1,11 +1,11 @@
 package carrentalfinalprojectbackend.controller;
 
-import carrentalfinalprojectbackend.model.Car;
+import carrentalfinalprojectbackend.dto.CarDto;
 import carrentalfinalprojectbackend.service.CarService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequiredArgsConstructor
@@ -16,12 +16,12 @@ public class CarController {
 
 
     @GetMapping
-    public List<Car> creatCar(){
+    public Set<CarDto> creatCar(){
        return carService.getAllCars();
     }
 
     @PostMapping()
-    public void creatCar(@RequestBody Car car){
+    public void creatCar(@RequestBody CarDto car){
         carService.createCar(car);
     }
 
