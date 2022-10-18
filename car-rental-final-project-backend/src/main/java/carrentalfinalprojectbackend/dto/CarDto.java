@@ -1,12 +1,13 @@
-package carrentalfinalprojectbackend.model;
+package carrentalfinalprojectbackend.dto;
 
 import lombok.Data;
-
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 @Data
-public class Car {
+public class CarDto {
 
     @Id
     @GeneratedValue
@@ -17,8 +18,4 @@ public class Car {
     private String brand;
     private String type;
     private boolean status;
-
-    @ManyToOne
-    private Reservation reservation;
-
 }
