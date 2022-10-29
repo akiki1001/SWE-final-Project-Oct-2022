@@ -43,20 +43,20 @@ public class CarAndBrandData {
 
     private void loadCarsAndCarBrands() {
         List<String> brands = new ArrayList<>(){{
-            add("GMC");
-            add("Ford");
-            add("Mazda");
             add("Toyota");
-            add("Nissan");
+            add("Tesla");
+            add("Toyota");
+            add("Toyota");
+            add("Toyota");
             add("Porsche");
         }};
 
         HashMap<String, String> cars = new HashMap<>(){{
             put("Toyota", "Cameo");
-            put("Mazda", "XC 60");
-            put("Tesla", "Mustang");
+            put("Tesla", "XC 60");
+            put("Toyota", "Mustang");
             put("Toyota", "Supra");
-            put("Nissan", "Qashqai");
+            put("Toyota", "Qashqai");
             put("Porsche", "Taycan");
         }};
 

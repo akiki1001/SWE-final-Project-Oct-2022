@@ -49,16 +49,16 @@ public class  SeedData {
 
     private void loadCustomers() {
         List<String> customers = new ArrayList<>() {{
-            add("reid");
-            add("becky");
-            add("customer");
-            add("thompson");
+            add("Yasmin");
+            add("Tedros");
+            add("Michael");
+            add("Daniel");
         }};
         for (int i = 0; i < customers.size(); i++) {
             User user = new User();
             user.setPassword("1234");
             user.setRole(Role.CUSTOMER);
-            user.setDriverLicenseNumber("A2987 B2" + i + 1);
+            user.setDriverLicenseNumber("A1234 B2" + i + 1);
             user.setUsername(customers.get(i).toLowerCase());
             user.setLastName(customers.get(i).toUpperCase());
             user.setFirstName(customers.get(i).toUpperCase());
