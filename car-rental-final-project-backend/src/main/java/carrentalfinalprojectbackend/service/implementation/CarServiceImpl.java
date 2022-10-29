@@ -21,7 +21,7 @@ public class CarServiceImpl implements CarService {
     ModelMapper modelMapper;
     private final CarRepo carRepo;
     @Override
-    public void createCar(CarDto carDto) {
+    public void addCar(CarDto carDto) {
         Car car =modelMapper.map(carDto,Car.class);
         carRepo.save(car);
     }
@@ -30,6 +30,22 @@ public class CarServiceImpl implements CarService {
     public Set<CarDto> getAllCars() {
 
         List<Car> cars = carRepo.findAll();
+
+        Set<CarDto> carDtos = cars.stream().map(x->modelMapper.map(x,CarDto.class)).collect(Collectors.toSet());
+        return carDtos;
+    }
+
+    @Override
+    public Set<CarDto> getCarByBrand(String brand) {
+        List<Car> cars = carRepo.findCarsByBrand(brand);
+
+        Set<CarDto> carDtos = cars.stream().map(x->modelMapper.map(x,CarDto.class)).collect(Collectors.toSet());
+        return carDtos;
+    }
+
+    @Override
+    public Set<CarDto> getCarByModel(String model) {
+        List<Car> cars = carRepo.findCarsByModel(model);
 
         Set<CarDto> carDtos = cars.stream().map(x->modelMapper.map(x,CarDto.class)).collect(Collectors.toSet());
         return carDtos;

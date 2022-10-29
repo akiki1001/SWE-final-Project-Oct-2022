@@ -16,13 +16,24 @@ public class CarController {
 
 
     @GetMapping
-    public Set<CarDto> creatCar(){
+    public Set<CarDto> GetAllCars(){
        return carService.getAllCars();
     }
 
     @PostMapping()
-    public void creatCar(@RequestBody CarDto car){
-        carService.createCar(car);
+    public void addCar(@RequestBody CarDto car){
+        carService.addCar(car);
     }
+
+    @GetMapping("/search/model/{model}")
+    public Set<CarDto> getCarByModel(@PathVariable("model") String model){
+        return carService.getCarByModel(model);
+    }
+
+    @GetMapping("/search/brand/{brand}")
+    public Set<CarDto> getCarByBrand(@PathVariable("brand") String brand){
+        return carService.getCarByBrand(brand);
+    }
+
 
 }
